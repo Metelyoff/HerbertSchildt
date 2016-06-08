@@ -1,0 +1,17 @@
+package chapter7_classes_and_methods;
+
+class TestEquals {
+	int a, b;
+
+	TestEquals(int i, int j) {
+		a = i;
+		b = j;
+	}
+
+	boolean equals(TestEquals o) {
+		if (o.a == a && o.b == b)
+			return true;
+		else
+			return false;
+	}
+}
